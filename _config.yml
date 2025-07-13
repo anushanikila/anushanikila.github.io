@@ -30,6 +30,7 @@ twitter_username: thenush_
 github_username:  anushanikila
 
 # Build settings
+remote_theme: daattali/beautiful-jekyll@master
 theme: null
 plugins:
   - jekyll-feed
