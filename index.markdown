@@ -4,8 +4,9 @@
 
 layout: home
 title: Welcome!
+---
 
 #Hi, I'm Anusha 👋🏻
 This is my new personal site, powered by Jekyll and Github Pages.
 Stay tuned for blog posts and updates.
----
+
