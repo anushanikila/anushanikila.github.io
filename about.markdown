@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Hi, I'm Anusha 👋
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm a data scientist and NLP researcher passionate about using language to explore questions around bias, fairness, and digital identity.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+### A few fun facts:
+- 🎓 Graduated from UMass Amherst (DACSS)
+- 💬 Fluent in English, Tamil, and dry sarcasm
+- 🧪 Working on uncovering gender bias in large language models
+- 🏔 I hike to think, I lift to cope, and I write to connect
