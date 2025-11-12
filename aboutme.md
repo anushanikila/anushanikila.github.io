@@ -1,16 +1,8 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hi! My name is Anusha Sivakumar and I am a Data Scientist who is also a Biomedical Engineer. I used to work in Neurosurgery as a Clinical Software Consultant for optimal implementation of navigation software powered by AI/ML for 100% success in patient outcome :) Working with tons of patient health data in research projects got me inspired to pursue data-driven pursuits and here I am now working on fairness and biases in LLMs which ultimately power Agentic AI systems.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
