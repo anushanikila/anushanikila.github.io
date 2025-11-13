@@ -21,6 +21,7 @@ author: Anusha Sivakumar
 
 navbar-links:
   About Me: "aboutme"
+  Skills: "skills"
   #Resources:
    # - Beautiful Jekyll: "https://beautifuljekyll.com"
    # - Learn markdown: "https://www.markdowntutorial.com/"
