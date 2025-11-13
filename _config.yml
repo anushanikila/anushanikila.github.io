@@ -23,7 +23,7 @@ navbar-links:
   About: "aboutme"
   Thoughts:
     - LLM: "thoughts"
-    - Switchups: ""https://www.google.com
+    - Switchups: "https://www.google.com"
   Resume: "resume" 
   Skills: "skills"  
   #Author's home: "https://deanattali.com"
