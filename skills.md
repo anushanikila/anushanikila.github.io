@@ -128,7 +128,7 @@ body.dark-mode .skill-label {
   <div class="skills-grid">
     <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" class="skill-icon"><div class="skill-label">Docker</div></div>
     <div class="skill-item">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/amazonwebservices/amazonwebservices-original.svg" 
        alt="AWS" class="skill-icon">
   <div class="skill-label">AWS</div>
 </div>
