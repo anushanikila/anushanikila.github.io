@@ -29,10 +29,11 @@ Growing up across Germany, Singapore, and the U.S. gave me a global perspective 
 
 ⚡ ⚡ Collaborative team player, working cross-functionally with engineering, analytics, and product teams to drive data-driven strategies
 
-</div>
+
 
 <div style="text-align: center; margin: 20px 0;">
   <a href="{{ '/assets/AnushaSivakumar Resume 2025.pdf' | relative_url }}" class="btn btn-secondary" download>
     Download My Résumé
   </a>
+</div>
 </div>
