@@ -22,8 +22,8 @@ author: Anusha Sivakumar
 navbar-links:
   About Me: "aboutme"
   Thoughts:
-    - Fun post 1: "https://www.google.com"
-    - Serious post 2: "https://www.google.com/"
+    - LLM: "llm-for-layperson.md"
+    - Switchups: "pivoting-careers.md"
   Resume: "resume" 
   Skills: "skills"  
   #Author's home: "https://deanattali.com"
