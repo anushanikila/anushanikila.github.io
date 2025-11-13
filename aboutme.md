@@ -17,6 +17,8 @@ Growing up across Germany, Singapore, and the U.S. gave me a global perspective 
 
 ⚡ ⚡ Applying machine learning and predictive modeling (Scikit-learn, TensorFlow, PyTorch) to optimize decision-making
 
+⚡ ⚡ Applying natural language processing and large language models to extract insights from complex text data, build AI assistants, and develop generative systems that support decision-making and human interaction
+
 ⚡ ⚡ Collaborative team player, working cross-functionally with engineering, analytics, and product teams to drive data-driven strategies
 
 <div style="text-align: center; margin: 20px 0;">
