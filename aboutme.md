@@ -21,7 +21,7 @@ title: About me
 .about-text {
   flex: 1;
   max-width: 40%;      /* shrink text container */
-  font-size: 14px;     /* slightly smaller body text */
+  font-size: 15px;     /* slightly smaller body text */
   line-height: 1.55;
 }
 
@@ -44,6 +44,10 @@ title: About me
 
 .what-i-do {
   margin-top: 10px;
+}
+
+.what-i-do {
+  font-size: 15px;
 }
 </style>
 
