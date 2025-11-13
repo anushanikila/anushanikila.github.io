@@ -22,9 +22,10 @@ author: Anusha Sivakumar
 navbar-links:
   About Me: "aboutme"
   Skills: "skills"
-  #Resources:
-   # - Beautiful Jekyll: "https://beautifuljekyll.com"
-   # - Learn markdown: "https://www.markdowntutorial.com/"
+  Thoughts:
+    - Fun post 1: "https://www.google.com"
+    - Serious post 2: "https://www.google.com/"
+  Resume: "resume"  
   #Author's home: "https://deanattali.com"
 
 ################
