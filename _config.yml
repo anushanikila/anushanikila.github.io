@@ -20,10 +20,10 @@ author: Anusha Sivakumar
 ###############################################
 
 navbar-links:
-  About: aboutme.md
+  About: "aboutme"
   Thoughts:
-    - LLM: "/posts/llm-for-layperson.md"
-    - Switchups: "/posts/pivoting-careers.md"
+    - LLM: "thoughts"
+    - Switchups: ""https://www.google.com
   Resume: "resume" 
   Skills: "skills"  
   #Author's home: "https://deanattali.com"
