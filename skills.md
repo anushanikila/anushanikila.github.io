@@ -127,9 +127,9 @@ body.dark-mode .skill-label {
   <h2>Cloud & DevOps</h2>
   <div class="skills-grid">
     <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" class="skill-icon"><div class="skill-label">Docker</div></div>
-    <div class="skill-item">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/amazonwebservices/amazonwebservices-original.svg" 
-       alt="AWS" class="skill-icon">
+   <div class="skill-item">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" 
+       alt="AWS" class="skill-icon" width="50" height="50">
   <div class="skill-label">AWS</div>
 </div>
     <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="GCP" class="skill-icon"><div class="skill-label">GCP</div></div>
