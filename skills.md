@@ -94,9 +94,24 @@ body.dark-mode .skill-label {
 
   <h2>Data Science & Visualization</h2>
   <div class="skills-grid">
-    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tableau/tableau-original.svg" alt="Tableau" class="skill-icon"><div class="skill-label">Tableau</div></div>
-    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powerbi/powerbi-original.svg" alt="Power BI" class="skill-icon"><div class="skill-label">Power BI</div></div>
-    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/excel/excel-original.svg" alt="Excel" class="skill-icon"><div class="skill-label">Excel</div></div>
+    <div class="skill-item">
+  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tableau.svg" 
+       alt="Tableau" class="skill-icon" 
+       style="width:50px; height:50px; object-fit: contain; filter: invert(35%) sepia(74%) saturate(292%) hue-rotate(179deg) brightness(91%) contrast(93%);">
+  <div class="skill-label">Tableau</div>
+</div>
+    <div class="skill-item">
+  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/powerbi.svg" 
+       alt="Power BI" class="skill-icon" 
+       style="width:50px; height:50px; object-fit: contain; filter: invert(63%) sepia(90%) saturate(1736%) hue-rotate(2deg) brightness(95%) contrast(90%);">
+  <div class="skill-label">Power BI</div>
+</div>
+    <div class="skill-item">
+  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/microsoftexcel.svg" 
+       alt="Excel" class="skill-icon" 
+       style="width:50px; height:50px; object-fit: contain; filter: invert(30%) sepia(68%) saturate(1221%) hue-rotate(90deg) brightness(94%) contrast(88%);">
+  <div class="skill-label">Excel</div>
+</div>
   </div>
 
   <h2>Databases & Version Control</h2>
@@ -129,8 +144,18 @@ body.dark-mode .skill-label {
     <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" class="skill-icon"><div class="skill-label">TensorFlow</div></div>
     <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" class="skill-icon"><div class="skill-label">Keras</div></div>
     <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" class="skill-icon"><div class="skill-label">PyTorch</div></div>
-    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nltk/nltk-original.svg" alt="NLTK" class="skill-icon"><div class="skill-label">NLTK</div></div>
-    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spacy/spacy-original.svg" alt="spaCy" class="skill-icon"><div class="skill-label">spaCy</div></div>
+    <div class="skill-item">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/NLTK_Logo.png" 
+       alt="NLTK" class="skill-icon" 
+       style="width:50px; height:50px; object-fit: contain;">
+  <div class="skill-label">NLTK</div>
+</div>
+    <div class="skill-item">
+  <img src="https://raw.githubusercontent.com/explosion/spaCy/master/website/src/images/logo.svg" 
+       alt="spaCy" class="skill-icon" 
+       style="width:50px; height:50px; object-fit: contain;">
+  <div class="skill-label">spaCy</div>
+</div>
     <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" class="skill-icon"><div class="skill-label">Matplotlib</div></div>
   </div>
 </div>
