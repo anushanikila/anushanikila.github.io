@@ -24,7 +24,7 @@ navbar-links:
   Thoughts:
     - LLM: "thoughts"
     - Switchups: "https://www.google.com"
-  Resume: "resume" 
+  #Resume: "resume" 
   Skills: "skills"  
   #Author's home: "https://deanattali.com"
 
