@@ -81,7 +81,10 @@ body.dark-mode .skill-label {
     <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" class="skill-icon"><div class="skill-label">Next.js</div></div>
     <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="skill-icon"><div class="skill-label">HTML</div></div>
     <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="skill-icon"><div class="skill-label">CSS</div></div>
-    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="TailwindCSS" class="skill-icon"><div class="skill-label">TailwindCSS</div>
+    <div class="skill-item">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" 
+       alt="TailwindCSS" class="skill-icon">
+  <div class="skill-label">TailwindCSS</div>
 </div>
     <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="skill-icon"><div class="skill-label">Node.js</div></div>
     <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" class="skill-icon"><div class="skill-label">Express</div></div>
