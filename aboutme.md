@@ -6,22 +6,23 @@ title: About me
 <style>
 .about-wrapper {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 40px;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
+  flex-wrap: nowrap; /* keeps them side-by-side */
+  margin-top: 20px;
 }
 
 .about-photo {
-  max-width: 280px;
-  border-radius: 12px;
+  width: 380px;        /* increase this */
+  max-width: 45%;      /* ensures it scales nicely */
+  border-radius: 14px;
 }
 
 .about-text {
   flex: 1;
-  min-width: 300px;
-  margin: 0;
+  max-width: 50%;      /* shrink text container */
+  font-size: 17px;     /* slightly smaller body text */
+  line-height: 1.55;
 }
 
 .about-text p {
