@@ -21,11 +21,11 @@ author: Anusha Sivakumar
 
 navbar-links:
   About Me: "aboutme"
-  Skills: "skills"
   Thoughts:
     - Fun post 1: "https://www.google.com"
     - Serious post 2: "https://www.google.com/"
-  Resume: "resume"  
+  Resume: "resume" 
+  Skills: "skills"  
   #Author's home: "https://deanattali.com"
 
 ################
