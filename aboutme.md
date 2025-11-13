@@ -8,6 +8,8 @@ Hello there, I'm Nush! I’m a data scientist and biomedical engineer with a pas
 
 Growing up across Germany, Singapore, and the U.S. shaped my global outlook and curiosity about how data, culture, and creativity intersect. Beyond the code, I’m an artist who finds inspiration in color, structure, and storytelling, the same elements that drive my work in AI. This space is where both worlds meet.
 
-<center>
-  [Download my Résumé](assets/AnushaSivakumar Resume 2025.pdf){: .btn .btn-secondary }
-</center>
+<div style="text-align: center; margin: 20px 0;">
+  <a href="{{ '/assets/AnushaSivakumar Resume 2025.pdf' | relative_url }}" class="btn btn-secondary" download>
+    Download My Résumé
+  </a>
+</div>
