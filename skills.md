@@ -144,12 +144,12 @@ body.dark-mode .skill-label {
     <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" class="skill-icon"><div class="skill-label">TensorFlow</div></div>
     <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" class="skill-icon"><div class="skill-label">Keras</div></div>
     <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" class="skill-icon"><div class="skill-label">PyTorch</div></div>
-    <div class="skill-item">
+  <!--  <div class="skill-item">
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/NLTK_Logo.png" 
        alt="NLTK" class="skill-icon" 
        style="width:50px; height:50px; object-fit: contain;">
-  <div class="skill-label">NLTK</div>
-</div>
+  <div class="skill-label">NLTK</div> 
+</div> -->
     <div class="skill-item">
   <img src="https://raw.githubusercontent.com/explosion/spaCy/master/website/src/images/logo.svg" 
        alt="spaCy" class="skill-icon" 
