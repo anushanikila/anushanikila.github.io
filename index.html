@@ -4,7 +4,10 @@ title: Hi 👋🏻
 subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻‍💻
 ---
 <div class = "intropage-animations">
-  <p class="typing-container"><span class="typing-text">Hi, I'm Nush! I like making machines think and data speak to turn insight into action</span></p>
+  <div class="typing-container">
+    <span id="typed-text"></span>
+    <span id="cursor">|</span>
+  </div>
   
   <div class="animated-bar-chart">
     <svg width="150" height="80">
@@ -49,29 +52,24 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
 
 <style>
 .typing-container {
-  text-align: center; /* centers the inline-block span */
-}
-  
-.typing-text {
-  display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 2px solid #4cafef;
-  animation: typing 6s steps(94) 1 forwards, blink 0.75s step-end infinite;
-  font-size: 16px;
-  line-height: 1.6;
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  white-space: normal; /* allows line wrapping */
+  font-size: 2rem;
+  font-family: monospace;
+  line-height: 1.4;
 }
 
-@keyframes typing{
-  from { width: 0; }
-  to { width: 100%; }
+#cursor {
+  margin-left: 3px;
+  animation: blink 0.8s infinite;
 }
 
 @keyframes blink {
-  50% { border-color: transparent; }
-  100% { border-color: #4cafef; }
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
 }
-
 .intropage-animations {
   display: flex;
   justify-content: space-around; /* spread evenly */
@@ -152,3 +150,18 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   100% { width: 0; }
 }
 </style>
+
+<script>
+const text = "Hi, I'm Nush! I like making machines think and data speak to turn insight into action";
+let i = 0;
+
+function type() {
+  if (i < text.length) {
+    document.getElementById("typed-text").textContent += text.charAt(i);
+    i++;
+    setTimeout(type, 60); // speed
+  }
+}
+
+document.addEventListener("DOMContentLoaded", type);
+</script>
