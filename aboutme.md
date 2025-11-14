@@ -114,9 +114,9 @@ title: About me
   <img src="/assets/img/IMG_6616.JPG" class="about-photo">
 
   <div class="about-text">
-    <p>Hello there, I’m Nush! I’m a data scientist and biomedical engineer with a passion for building intelligent systems that bridge technology and human experience. My work spans from deploying software solutions in live neurosurgery to exploring machine learning, natural language processing, large language models, generative AI, and agentic AI, always with the goal of making complex systems more intuitive and impactful.</p>
+    <p>Hello there, I’m Nush! I’m a data scientist and biomedical engineer who loves building intelligent systems that connect technology and human experience. I earned my Master’s in Data Science & Analytics from UMass Amherst (ML/AI focus) and my Bachelor’s in Biomedical Engineering from Tulane University. I’ve worked cross-functionally across teams to tackle real-world problems—from deploying software in live neurosurgery at Brainlab/UCSF, to creating AI-driven patient adherence models at CareCentra, designing scalable web platforms as a freelance developer with 100Devs, and driving growth strategy at Bhoomi Inc. My work blends collaboration with a focus on making complex systems intuitive, impactful, and human-centered, whether through machine learning, NLP, generative AI, or agentic AI.</p>
 
-    <p>Growing up across Germany, Singapore, and the U.S. gave me a global perspective and a curiosity about how culture, creativity, and data intersect. I express myself through photography, fashion, painting, writing, poetry, storytelling, singing, and guitar. Each of these passions teaches me something about observation, pattern, and expression, and they shape the way I approach AI and problem-solving. This space is where creativity and analysis come together to inspire new ideas and meaningful work.</p>
+    <p>Growing up across Germany, Singapore, and the U.S. gave me a global perspective and a curiosity about how culture, creativity, and data intersect. I express myself through photography, fashion, painting, writing, poetry, storytelling, singing, and guitar—each passion shaping how I approach AI and problem-solving. This is where creativity and analysis meet to inspire new ideas and meaningful work.</p>
   </div>
 </div>
 
