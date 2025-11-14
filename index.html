@@ -4,7 +4,7 @@ title: Hi 👋🏻
 subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻‍💻
 ---
 
-<div class="typing-container">
+<div class="typing-wrapper">
   <span id="typed-text"></span>
   <span id="cursor">|</span>
 </div>
@@ -52,34 +52,47 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
 </div>
 
 <style>
-.typing-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 0.8rem;
-  font-family: monospace;
-  color: #A9A9A9;
-  white-space: normal; /* allow wrapping */
-}
-
-/* Typed text stays inline */
-#typed-text {
-  display: inline;
-}
-
-/* Single, blue cursor */
+/* override every conflicting theme rule */
+.typing-wrapper *,
+#typed-text,
 #cursor {
-  display: inline-block;
-  border-right: 2px solid #4cafef;
-  height: 1em;
-  animation: blink 0.7s step-end infinite;
-  margin-left: 3px; /* tiny spacing so it touches the last character */
+  all: unset !important;
+  font-family: monospace !important;
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
+  color: #A9A9A9 !important;
 }
 
+/* typing wrapper (centers everything) */
+.typing-wrapper {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  white-space: normal !important; /* allow wrapping */
+  text-align: center !important;
+}
+
+/* typed text */
+#typed-text {
+  display: inline !important;
+  white-space: normal !important;
+}
+
+/* cursor */
+#cursor {
+  display: inline-block !important;
+  margin-left: 3px !important;
+  border-right: none !important;
+  color: #4cafef !important;
+  height: 1.4rem !important;
+  animation: blink 0.8s step-end infinite !important;
+}
+
+/* blinking animation */
 @keyframes blink {
-  0% { border-color: #4cafef; }
-  50% { border-color: transparent; }
-  100% { border-color: #4cafef; }
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
 }
 .intropage-animations {
   display: flex;
