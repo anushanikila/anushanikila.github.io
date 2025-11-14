@@ -22,15 +22,29 @@ title: My Projects & Work
   <div class="project-card">
     <img src="/assets/images/llm_research.png" alt="LLM Research Screenshot"/>
     <h3>LLM Research on Bias</h3>
-    <p>Conducted NLP research on agentic AI systems to study pronoun bias and controlling preference modeling in niche scenarios. Explored fairness and model behavior under controlled settings.</p>
+    <p>Conducted NLP research on agentic AI systems to study pronoun bias and controlling preference modeling in niche scenarios. Explored fairness and model behavior under controlled settings. Pending publishing on arXiV as archival paper, at ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT) and AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society</p>
     <a href="https://yourprojectlink.com" target="_blank">View Project</a>
   </div>
 
   <div class="project-card">
     <img src="/assets/images/reddit_text_analysis.png" alt="Reddit Text-as-Data Project Screenshot"/>
     <h3>Public Forum Text-as-Data Analysis</h3>
-    <p>Analyzed mental health and skincare discussions on Reddit using sentiment analysis and topic modeling. Explored trends around acne, scarring, self-image, and their intersection with anxiety and depression over time.</p>
+    <p>Analyzed mental health and skincare discussions on public forums using sentiment analysis and topic modeling. Explored trends around acne, scarring, self-image, and their intersection with anxiety and depression over time.</p>
     <a href="https://yourprojectlink.com" target="_blank">View Project</a>
+</div>
+
+<div class="project-card">
+  <img src="/assets/images/gender_inequality_analysis.png" alt="Gender Inequality Analysis Screenshot"/>
+  <h3>Global Gender Inequality & Socioeconomic Factors</h3>
+  <p>Analyzed how education and income levels influence gender inequality in workforce participation across countries using the UNDP's Gender Inequality Index (GII) and Gender Development Index (GDI).</p>
+  <a href="https://yourprojectlink.com" target="_blank">View Project</a>
+</div>
+
+<div class="project-card">
+  <img src="/assets/images/air_quality_health.png" alt="Air Quality & Health Analysis Screenshot"/>
+  <h3>Global Air Quality & Health Analysis</h3>
+  <p>Explored air pollution levels across 100 top cities globally and analyzed their correlation with health indicators such as life expectancy and respiratory disease rates using Python, linear regression, and random forest models. Visualized patterns and identified key environmental factors affecting public health.</p>
+  <a href="https://yourprojectlink.com" target="_blank">View Project</a>
 </div>
 
   <!-- Add more project cards here -->
