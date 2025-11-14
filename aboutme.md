@@ -29,6 +29,10 @@ title: About me
   margin-top: 0;
 }
 
+.what-i-do {
+  font-size: 15px;
+}  
+
 /* Mobile / tablet view */
 @media (max-width: 768px) {
   .about-wrapper {
@@ -74,15 +78,24 @@ title: About me
 
 .what-i-do li {
   margin-bottom: 10px;
+  opacity: 0;
+  transform: translateX(-10px);
+  animation: fadeIn 0.6s forwards;
 }
 
 .what-i-do {
   margin-top: 10px;
 }
+.what-i-do li:nth-child(1) { animation-delay: 0.2s; }
+.what-i-do li:nth-child(2) { animation-delay: 0.4s; }
+.what-i-do li:nth-child(3) { animation-delay: 0.6s; }
+.what-i-do li:nth-child(4) { animation-delay: 0.8s; }
+.what-i-do li:nth-child(5) { animation-delay: 1s; }
 
-.what-i-do {
-  font-size: 15px;
-}
+@keyframes fadeIn {
+  to { opacity: 1; transform: translateX(0); }
+}  
+
 </style>
 
 <div class="about-wrapper">
