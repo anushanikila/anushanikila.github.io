@@ -29,6 +29,16 @@ title: About me
   margin-top: 0;
 }
 
+.spark {
+  display: inline-block;
+  animation: sparkPulse 1.2s ease-in-out infinite;
+}
+
+@keyframes sparkPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.2); opacity: 0.8; }
+}
+  
 /* Remove default bullet dots */
 .what-i-do ul {
   list-style-type: none;
@@ -64,11 +74,11 @@ title: About me
 <div class="what-i-do">
   <h2>What I Do:</h2>
   <ul>
-    <li>⚡⚡ Experienced in end-to-end data engineering on AWS and Azure using Databricks, PySpark, Delta Lake, and ADF</li>
-    <li>⚡⚡ Skilled in workflow orchestration and automation with Airflow, Azure DevOps, GitHub, and Docker</li>
-    <li>⚡⚡ Transforming raw data into business intelligence using Power BI, Tableau, and Excel</li>
-    <li>⚡⚡ Applying machine learning and predictive modeling with Scikit-learn, TensorFlow, and PyTorch</li>
-    <li>⚡⚡ Exploring NLP, large language models, generative AI, and agentic AI to build systems that understand and interact with human language</li>
+    <li><span class="spark">⚡</span> Experienced in end-to-end data engineering on AWS and Azure using Databricks, PySpark, Delta Lake, and ADF</li>
+    <li><span class="spark">⚡</span> Skilled in workflow orchestration and automation with Airflow, Azure DevOps, GitHub, and Docker</li>
+    <li><span class="spark">⚡</span> Transforming raw data into business intelligence using Power BI, Tableau, and Excel</li>
+    <li><span class="spark">⚡</span> Applying machine learning and predictive modeling with Scikit-learn, TensorFlow, and PyTorch</li>
+    <li><span class="spark">⚡</span> Exploring NLP, large language models, generative AI, and agentic AI to build systems that understand and interact with human language</li>
   </ul>
 </div>
 
