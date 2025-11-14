@@ -4,8 +4,9 @@ title: Hi 👋🏻
 subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻‍💻
 ---
 <div class="typing-wrapper">
-  <span id="typed-text"></span>
-  <span id="cursor">|</span>
+  <span class="typing-line">
+    <span id="typed-text"></span><span id="cursor">|</span>
+  </span> 
 </div>
 
 <div class="intropage-animations">
@@ -62,8 +63,13 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   text-align: center;
   white-space: normal; /* allow wrapping */
   font-family: monospace;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   color: #A9A9A9;
+}
+
+.typing-line {
+  display: inline;      /* keep text + cursor together */
+  white-space: normal;  /* allow wrapping if needed */
 }
 
 #typed-text {
@@ -72,7 +78,7 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
 }
 
 #cursor {
-  display: inline-block;
+  display: inline;
   margin-left: 2px;
   color: #4cafef;
   animation: blinkCursor 0.8s step-end infinite;
