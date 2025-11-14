@@ -77,6 +77,36 @@ title: About me
   padding: 0 !important;
   margin: 0 !important;
 }
+
+ /* Slide-in animation for bullets */
+.what-i-do li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 10px;
+
+  /* Start off invisible and slightly left */
+  opacity: 0;
+  transform: translateX(-20px);
+
+  /* Animate in */
+  animation: slideIn 0.6s forwards;
+}
+
+/* Stagger each bullet */
+.what-i-do li:nth-child(1) { animation-delay: 0.2s; }
+.what-i-do li:nth-child(2) { animation-delay: 0.4s; }
+.what-i-do li:nth-child(3) { animation-delay: 0.6s; }
+.what-i-do li:nth-child(4) { animation-delay: 0.8s; }
+.what-i-do li:nth-child(5) { animation-delay: 1s; }
+
+/* Keyframes for slide-in */
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+} 
   
 </style>
 
