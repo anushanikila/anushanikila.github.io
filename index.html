@@ -39,6 +39,20 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   50% { border-color: transparent; }
   100% { border-color: #4cafef; }
 }
+
+.animated-bar-chart .bar {
+  fill: grey;              /* grey bars */
+  transform-origin: bottom; /* grow from bottom */
+  transform: scaleY(0);     /* start scaled down */
+  animation: grow 1s ease-out forwards;
+}
+.animated-bar-chart .bar:nth-child(2) { animation-delay: 0.2s; }
+.animated-bar-chart .bar:nth-child(3) { animation-delay: 0.4s; }
+.animated-bar-chart .bar:nth-child(4) { animation-delay: 0.6s; }
+
+@keyframes grow {
+  to { transform: scaleY(1); }
+}  
   
 </style>
 
