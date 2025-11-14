@@ -64,7 +64,7 @@ title: About me
   25%  { transform: scale(1.2) rotate(10deg); opacity: 0.8; color: #ffdd33; }
   50%  { transform: scale(1); rotate(-10deg); opacity: 1; color: gold; }
   75%  { transform: scale(1.1) rotate(5deg); opacity: 0.9; color: #ffee66; }
-  100% { transform: scale(1); rotate(0deg); opacity: 1; color: gold; 
+  100% { transform: scale(1); rotate(0deg); opacity: 1; color: gold; }
 }
   
 /* Remove bullets from What I Do section including pseudo-elements */
@@ -77,32 +77,7 @@ title: About me
   padding: 0 !important;
   margin: 0 !important;
 }
-
-/* Slide-in animation for bullets */
-.what-i-do li {
-  opacity: 0;
-  transform: translateX(-20px);
-  animation: slideIn 0.6s forwards;
-  /* Make sure the animation plays despite global CSS */
-  display: flex;
-  align-items: flex-start;
-  gap: 8px; /* space between ⚡ and text */
-}
-
-/* Stagger each bullet */
-.what-i-do li:nth-child(1) { animation-delay: 0.2s; }
-.what-i-do li:nth-child(2) { animation-delay: 0.4s; }
-.what-i-do li:nth-child(3) { animation-delay: 0.6s; }
-.what-i-do li:nth-child(4) { animation-delay: 0.8s; }
-.what-i-do li:nth-child(5) { animation-delay: 1s; }
-
-@keyframes slideIn {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}  
-
+  
 </style>
 
 <div class="about-wrapper">
