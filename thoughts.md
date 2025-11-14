@@ -32,7 +32,7 @@ title: Work
 
 </div>
 
-
+<style>
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
@@ -80,3 +80,4 @@ title: Work
   transform: translateY(-5px);
   box-shadow: 0px 6px 14px rgba(0,0,0,0.15);
 }
+</style>
