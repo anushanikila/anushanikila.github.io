@@ -68,7 +68,8 @@ title: About me
 }
   
 /* Remove default bullet dots */
-.what-i-do ul {
+.what-i-do ul,
+.what-i-do li  {
   list-style-type: none;
   padding-left: 0;
   margin-left: 0;
@@ -79,8 +80,8 @@ title: About me
 .what-i-do li {
   margin-bottom: 10px;
   opacity: 0;
-  transform: translateX(-10px);
-  animation: fadeIn 0.6s forwards;
+  transform: translateX(-20px);
+  animation: slideIn 0.6s forwards;
 }
 
 .what-i-do {
@@ -92,7 +93,7 @@ title: About me
 .what-i-do li:nth-child(4) { animation-delay: 0.8s; }
 .what-i-do li:nth-child(5) { animation-delay: 1s; }
 
-@keyframes fadeIn {
+@keyframes slideIn {
   to { opacity: 1; transform: translateX(0); }
 }  
 
