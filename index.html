@@ -20,6 +20,10 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   <div class="node" style="top:80%; left:40%"></div>
 </div>
 
+<div class="progress-bar">
+  <div class="fill"></div>
+</div>
+
 <style>
 .typing-container {
   text-align: center; /* centers the inline-block span */
@@ -71,5 +75,15 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   from { transform: translateY(0); }
   to { transform: translateY(-15px); }
 }  
+
+.progress-bar {
+  width: 100px; height: 10px; background: #eee; border-radius: 5px; margin: 10px auto;
+}
+.fill {
+  height: 10px; background: #4cafef; border-radius: 5px;
+  width: 0;
+  animation: fillBar 2s forwards;
+}
+@keyframes fillBar { to { width: 75%; } }  
 </style>
 
