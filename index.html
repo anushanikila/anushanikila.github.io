@@ -14,6 +14,11 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   </svg>
 </div>  
 
+<div class="llm-nodes">
+  <div class="node" style="top:10%; left:20%"></div>
+  <div class="node" style="top:50%; left:70%"></div>
+  <div class="node" style="top:80%; left:40%"></div>
+</div>
 
 <style>
 .typing-container {
@@ -53,6 +58,18 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
 @keyframes grow {
   to { transform: scaleY(1); }
 }  
-  
+
+.llm-nodes { position: relative; width: 100%; height: 120px; }
+.node {
+  width: 8px; height: 8px;
+  background: #4cafef;
+  border-radius: 50%;
+  position: absolute;
+  animation: float 3s ease-in-out infinite alternate;
+}
+@keyframes float {
+  from { transform: translateY(0); }
+  to { transform: translateY(-15px); }
+}  
 </style>
 
