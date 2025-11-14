@@ -16,26 +16,28 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
 
 <div class="llm-network">
   <svg width="200" height="120">
-    <!-- lines -->
-    <line x1="30" y1="20" x2="170" y2="20" stroke="grey" stroke-width="1"></line>
-    <line x1="30" y1="60" x2="170" y2="60" stroke="grey" stroke-width="1"></line>
-    <line x1="30" y1="100" x2="170" y2="100" stroke="grey" stroke-width="1"></line>
-    <line x1="30" y1="20" x2="30" y2="100" stroke="grey" stroke-width="1"></line>
-    <line x1="100" y1="20" x2="100" y2="100" stroke="grey" stroke-width="1"></line>
-    <line x1="170" y1="20" x2="170" y2="100" stroke="grey" stroke-width="1"></line>
+    <!-- connecting lines -->
+    <line x1="40" y1="20" x2="100" y2="40" stroke="grey" stroke-width="1"/>
+    <line x1="40" y1="60" x2="100" y2="40" stroke="grey" stroke-width="1"/>
+    <line x1="40" y1="60" x2="100" y2="80" stroke="grey" stroke-width="1"/>
+    <line x1="40" y1="100" x2="100" y2="80" stroke="grey" stroke-width="1"/>
+    <line x1="100" y1="40" x2="160" y2="30" stroke="grey" stroke-width="1"/>
+    <line x1="100" y1="40" x2="160" y2="70" stroke="grey" stroke-width="1"/>
+    <line x1="100" y1="80" x2="160" y2="50" stroke="grey" stroke-width="1"/>
+    <line x1="100" y1="80" x2="160" y2="90" stroke="grey" stroke-width="1"/>
 
     <!-- nodes -->
-    <circle cx="30" cy="20" r="5" class="node"></circle>
-    <circle cx="30" cy="60" r="5" class="node"></circle>
-    <circle cx="30" cy="100" r="5" class="node"></circle>
+    <circle cx="40" cy="20" r="5" class="node"></circle>
+    <circle cx="40" cy="60" r="5" class="node"></circle>
+    <circle cx="40" cy="100" r="5" class="node"></circle>
 
-    <circle cx="100" cy="20" r="5" class="node"></circle>
-    <circle cx="100" cy="60" r="5" class="node"></circle>
-    <circle cx="100" cy="100" r="5" class="node"></circle>
+    <circle cx="100" cy="40" r="5" class="node"></circle>
+    <circle cx="100" cy="80" r="5" class="node"></circle>
 
-    <circle cx="170" cy="20" r="5" class="node"></circle>
-    <circle cx="170" cy="60" r="5" class="node"></circle>
-    <circle cx="170" cy="100" r="5" class="node"></circle>
+    <circle cx="160" cy="30" r="5" class="node"></circle>
+    <circle cx="160" cy="50" r="5" class="node"></circle>
+    <circle cx="160" cy="70" r="5" class="node"></circle>
+    <circle cx="160" cy="90" r="5" class="node"></circle>
   </svg>
 </div>
 
@@ -89,16 +91,22 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   animation: floatNode 3s ease-in-out infinite alternate;
 }
 
-.node:nth-child(10) { animation-delay: 0.1s; }
-.node:nth-child(11) { animation-delay: 0.2s; }
-.node:nth-child(12) { animation-delay: 0.3s; }
-/* repeat for all nodes if needed */
+.node:nth-child(1) { animation-delay: 0s; }
+.node:nth-child(2) { animation-delay: 0.2s; }
+.node:nth-child(3) { animation-delay: 0.4s; }
+.node:nth-child(4) { animation-delay: 0.6s; }
+.node:nth-child(5) { animation-delay: 0.8s; }
+.node:nth-child(6) { animation-delay: 1s; }
+.node:nth-child(7) { animation-delay: 1.2s; }
+.node:nth-child(8) { animation-delay: 1.4s; }
+.node:nth-child(9) { animation-delay: 1.6s; }
+.node:nth-child(10){ animation-delay: 1.8s; }
 
 @keyframes floatNode {
   0% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+  50% { transform: translateY(-8px); }
   100% { transform: translateY(0); }
-}  
+} 
 
 .progress-bar {
   width: 150px;
