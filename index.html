@@ -3,21 +3,26 @@ layout: home
 title: Hi 👋🏻
 subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻‍💻
 ---
-<div class = "intropage-animations">
-  <p class="typing-container"><span class="typing-text">Hi, I'm Nush! I like making machines think and data speak to turn insight into action</span></p>
-  
+<div class="intropage-animations">
+  <!-- Typing intro -->
+  <p class="typing-container">
+    <span class="typing-text">Hi, I'm Nush! I like making machines think and data speak to turn insight into action</span>
+  </p>
+
+  <!-- Animated bar chart -->
   <div class="animated-bar-chart">
-    <svg width="150" height="80">
-      <rect x="10" y="60" width="15" height="20" class="bar"></rect>
-      <rect x="35" y="40" width="15" height="40" class="bar"></rect>
-      <rect x="60" y="50" width="15" height="30" class="bar"></rect>
-      <rect x="85" y="30" width="15" height="50" class="bar"></rect>
+    <svg viewBox="0 0 100 60" preserveAspectRatio="xMidYMid meet">
+      <rect x="10" y="40" width="10" height="20" class="bar"></rect>
+      <rect x="30" y="25" width="10" height="35" class="bar"></rect>
+      <rect x="50" y="30" width="10" height="30" class="bar"></rect>
+      <rect x="70" y="15" width="10" height="45" class="bar"></rect>
     </svg>
-  </div>  
-  
+  </div>
+
+  <!-- LLM network -->
   <div class="llm-network">
-    <svg width="200" height="120">
-      <!-- connecting lines -->
+    <svg viewBox="0 0 200 120" preserveAspectRatio="xMidYMid meet">
+      <!-- lines -->
       <line x1="40" y1="20" x2="100" y2="40" stroke="grey" stroke-width="1"/>
       <line x1="40" y1="60" x2="100" y2="40" stroke="grey" stroke-width="1"/>
       <line x1="40" y1="60" x2="100" y2="80" stroke="grey" stroke-width="1"/>
@@ -26,43 +31,45 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
       <line x1="100" y1="40" x2="160" y2="70" stroke="grey" stroke-width="1"/>
       <line x1="100" y1="80" x2="160" y2="50" stroke="grey" stroke-width="1"/>
       <line x1="100" y1="80" x2="160" y2="90" stroke="grey" stroke-width="1"/>
-  
+      
       <!-- nodes -->
       <circle cx="40" cy="20" r="5" class="node"></circle>
       <circle cx="40" cy="60" r="5" class="node"></circle>
       <circle cx="40" cy="100" r="5" class="node"></circle>
-  
       <circle cx="100" cy="40" r="5" class="node"></circle>
       <circle cx="100" cy="80" r="5" class="node"></circle>
-  
       <circle cx="160" cy="30" r="5" class="node"></circle>
       <circle cx="160" cy="50" r="5" class="node"></circle>
       <circle cx="160" cy="70" r="5" class="node"></circle>
       <circle cx="160" cy="90" r="5" class="node"></circle>
     </svg>
   </div>
-  
+
+  <!-- Progress bar -->
   <div class="progress-bar">
     <div class="fill"></div>
   </div>
 </div>
 
 <style>
+/* Typing animation */
 .typing-container {
-  text-align: center; /* centers the inline-block span */
+  text-align: center;
+  margin-bottom: 40px;
 }
-  
+
 .typing-text {
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 2px solid #4cafef;
-  animation: typing 6s steps(94) 1 forwards, blink 0.75s step-end infinite;
-  font-size: 16px;
-  line-height: 1.6;
+  border-right: 2px solid #4cafef; /* blinking cursor */
+  font-size: 24px;
+  line-height: 1.4;
+  width: 0; /* start collapsed */
+  animation: typing 5s steps(94) 1 forwards, blink 0.75s step-end infinite;
 }
 
-@keyframes typing-text{
+@keyframes typing {
   from { width: 0; }
   to { width: 100%; }
 }
@@ -72,32 +79,41 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   100% { border-color: #4cafef; }
 }
 
+/* Responsive font */
+@media (max-width: 768px) {
+  .typing-text { font-size: 18px; }
+}
+
+@media (max-width: 480px) {
+  .typing-text { font-size: 16px; }
+}
+
+/* Layout for animations */
 .intropage-animations {
   display: flex;
-  justify-content: space-around; /* spread evenly */
-  align-items: flex-end;        /* align to bottom */
-  flex-wrap: wrap;              /* wrap on small screens */
-  margin-top: 40px;
-  gap: 40px;                    /* space between each animation */
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 40px;
 }
 
+/* SVG sizing */
 .animated-bar-chart svg,
-.llm-network svg {
-  width: 200px;   /* bigger size */
-  height: 120px;
+.llm-network svg,
+.progress-bar {
+  max-width: 200px;
+  height: auto;
 }
 
-.progress-bar {
-  width: 200px;
-  height: 15px;
-}  
-
+/* Bar chart animation */
 .animated-bar-chart .bar {
-  fill: grey;              /* grey bars */
-  transform-origin: bottom; /* grow from bottom */
-  transform: scaleY(0);     /* start scaled down */
+  fill: grey;
+  transform-origin: bottom;
+  transform: scaleY(0.2);
   animation: growLoop 1.2s ease-in-out infinite alternate;
 }
+
 .animated-bar-chart .bar:nth-child(2) { animation-delay: 0.2s; }
 .animated-bar-chart .bar:nth-child(3) { animation-delay: 0.4s; }
 .animated-bar-chart .bar:nth-child(4) { animation-delay: 0.6s; }
@@ -106,8 +122,9 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   0% { transform: scaleY(0.2); }
   50% { transform: scaleY(1); }
   100% { transform: scaleY(0.2); }
-}  
+}
 
+/* LLM node animation */
 .node {
   fill: #4cafef;
   animation: floatNode 3s ease-in-out infinite alternate;
@@ -122,21 +139,20 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
 .node:nth-child(7) { animation-delay: 1.2s; }
 .node:nth-child(8) { animation-delay: 1.4s; }
 .node:nth-child(9) { animation-delay: 1.6s; }
-.node:nth-child(10){ animation-delay: 1.8s; }
 
 @keyframes floatNode {
   0% { transform: translateY(0); }
   50% { transform: translateY(-8px); }
   100% { transform: translateY(0); }
-} 
+}
 
+/* Progress bar animation */
 .progress-bar {
   width: 150px;
   height: 10px;
   background: #eee;
   border-radius: 5px;
   overflow: hidden;
-  margin: 20px auto;
 }
 
 .fill {
@@ -150,6 +166,21 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   0% { width: 0; }
   50% { width: 100%; }
   100% { width: 0; }
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .intropage-animations {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .animated-bar-chart svg,
+  .llm-network svg,
+  .progress-bar {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
 }
 </style>
 
