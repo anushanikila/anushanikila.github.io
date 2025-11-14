@@ -53,14 +53,26 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
 
 <style>
 /* override every conflicting theme rule */
-.typing-wrapper *,
-#typed-text,
-#cursor {
-  all: unset !important;
+.typing-wrapper * {
   font-family: monospace !important;
   font-size: 0.9rem !important;
   line-height: 1.4 !important;
   color: #A9A9A9 !important;
+  white-space: normal !important;
+}
+
+#typed-text {
+  all: unset !important; /* ok for text */
+  font-family: monospace !important;
+  font-size: 0.9rem !important;
+  color: #A9A9A9 !important;
+}
+
+#cursor {
+  /* ❌ DO NOT RESET ALL HERE */
+  font-family: monospace !important;
+  font-size: 0.9rem !important;
+  color: #4cafef !important;
 }
 
 /* typing wrapper (centers everything) */
