@@ -70,7 +70,7 @@ title: About me
 /* Remove default bullet dots */
 .what-i-do ul,
 .what-i-do li  {
-  list-style-type: none;
+  list-style: none;
   padding-left: 0;
   margin-left: 0;
   margin-top: 10px;
