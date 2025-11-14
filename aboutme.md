@@ -15,13 +15,13 @@ title: About me
 .about-photo {
   width: 380px;        /* increase this */
   max-width: 55%;      /* ensures it scales nicely */
-  border-radius: 14px;
+  border-radius: 12.5px;
 }
 
 .about-text {
   flex: 1;
   max-width: 40%;      /* shrink text container */
-  font-size: 14px;     /* slightly smaller body text */
+  font-size: 12.5px;     /* slightly smaller body text */
   line-height: 1.55;
 }
 
