@@ -67,10 +67,13 @@ title: About me
   100% { transform: scale(1); rotate(0deg); opacity: 1; color: gold; 
 }
   
-/* Remove bullets and reset padding/margin */
+/* Remove bullets from What I Do section including pseudo-elements */
 .what-i-do ul,
-.what-i-do ul li {
-  list-style: none !important; /* override any global ul/li styles */
+.what-i-do li,
+.what-i-do li::before,
+.what-i-do li::marker {
+  list-style: none !important;   /* remove default bullets */
+  content: none !important;      /* remove any pseudo-element bullet */
   padding: 0 !important;
   margin: 0 !important;
 }
