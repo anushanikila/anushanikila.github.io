@@ -67,26 +67,26 @@ title: About me
   100% { transform: scale(1); rotate(0deg); opacity: 1; color: gold; 
 }
   
-/* Remove default bullet dots */
+/* Remove bullets and reset padding/margin */
 .what-i-do ul,
-.what-i-do li  {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-  margin-top: 10px;
-  line-height: 1.6;
+.what-i-do ul li {
+  list-style: none !important; /* override any global ul/li styles */
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
+/* Slide-in animation for bullets */
 .what-i-do li {
-  margin-bottom: 10px;
   opacity: 0;
   transform: translateX(-20px);
   animation: slideIn 0.6s forwards;
+  /* Make sure the animation plays despite global CSS */
+  display: flex;
+  align-items: flex-start;
+  gap: 8px; /* space between ⚡ and text */
 }
 
-.what-i-do {
-  margin-top: 10px;
-}
+/* Stagger each bullet */
 .what-i-do li:nth-child(1) { animation-delay: 0.2s; }
 .what-i-do li:nth-child(2) { animation-delay: 0.4s; }
 .what-i-do li:nth-child(3) { animation-delay: 0.6s; }
@@ -94,7 +94,10 @@ title: About me
 .what-i-do li:nth-child(5) { animation-delay: 1s; }
 
 @keyframes slideIn {
-  to { opacity: 1; transform: translateX(0); }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }  
 
 </style>
