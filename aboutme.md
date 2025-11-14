@@ -29,14 +29,38 @@ title: About me
   margin-top: 0;
 }
 
+/* Mobile / tablet view */
+@media (max-width: 768px) {
+  .about-wrapper {
+    flex-direction: column; /* stack vertically */
+    align-items: center;    /* center image + text */
+    gap: 20px;              /* reduce gap for smaller screens */
+  }
+
+  .about-text {
+    max-width: 100%;        /* let text take full width */
+    text-align: center;     /* optional: nicer layout on small screens */
+    font-size: 14px;        /* slightly smaller for mobile */
+  }
+
+  .about-photo {
+    max-width: 80%;         /* image scales down for small screens */
+    width: auto;
+  }
+}  
+
 .spark {
   display: inline-block;
-  animation: sparkPulse 1.2s ease-in-out infinite;
+  animation: sparkle 1s infinite;
+  transform-origin: center;
 }
 
-@keyframes sparkPulse {
-  0%, 100% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.2); opacity: 0.8; }
+@keyframes sparkle {
+  0%   { transform: scale(1); opacity: 1; color: gold; }
+  25%  { transform: scale(1.2) rotate(10deg); opacity: 0.8; color: #ffdd33; }
+  50%  { transform: scale(1); rotate(-10deg); opacity: 1; color: gold; }
+  75%  { transform: scale(1.1) rotate(5deg); opacity: 0.9; color: #ffee66; }
+  100% { transform: scale(1); rotate(0deg); opacity: 1; color: gold; 
 }
   
 /* Remove default bullet dots */
