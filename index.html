@@ -54,26 +54,31 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
 <style>
 .typing-container {
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  white-space: normal; /* allows line wrapping */
+  align-items: center;
   font-size: 0.9rem;
-  font-family: monospace;
-  font-color: #A9A9A9;
   line-height: 1.4;
+  font-family: monospace;
+  color: #A9A9A9;
+  white-space: normal; /* allow wrapping */
 }
 
+/* Typed text stays inline */
+#typed-text {
+  display: inline;
+}
+
+/* Single, blue cursor */
 #cursor {
   display: inline-block;
   border-right: 2px solid #4cafef;
-  height: 0.9rem;
-  animation: blink 0.7s infinite;
+  height: 1em;
+  animation: blink 0.7s step-end infinite;
+  margin-left: 2px; /* tiny spacing so it touches the last character */
 }
 
 @keyframes blink {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0; }
+  50% { border-color: transparent; }
 }
 .intropage-animations {
   display: flex;
@@ -157,16 +162,16 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
 </style>
 
 <script>
-const text = "Hi, I'm Nush! I like making machines think and data speak to turn insight into action";
+const text = "Hi, I'm Nush! I like making machines think and data speak to turn insight into action.";
 let i = 0;
 
 function type() {
   if (i < text.length) {
     document.getElementById("typed-text").textContent += text.charAt(i);
     i++;
-    setTimeout(type, 60); // speed
+    setTimeout(type, 40); 
   }
 }
 
-document.addEventListener("DOMContentLoaded", type);
+type();
 </script>
