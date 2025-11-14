@@ -3,24 +3,20 @@ layout: home
 title: Hi 👋🏻
 subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻‍💻
 ---
-<p class="typing">
-Hi, I'm Nush! I like making machines think and data speak to turn insight into action
-</p>
+<p class="typing"><span class="typing-text">Hi, I'm Nush! I like making machines think and data speak to turn insight into action</span></p>
 
 <style>
-.typing {
-  width: 100%;
-  max-width: 68ch;
+.typing-text {
+  display: inline-block;
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid #4cafef;
+  animation: typing 6s steps(94) 1 forwards, blink 0.75s step-end infinite;
   font-size: 16px;
   line-height: 1.6;
-  animation: typing 6s steps(68) 1 forwards, blink 0.75s step-end infinite;
-  margin: 0 auto;
 }
 
-@keyframes typing {
+@keyframes typing-text {
   from { width: 0; }
   to { width: 100%; }
 }
