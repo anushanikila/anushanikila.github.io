@@ -3,12 +3,13 @@ layout: home
 title: Hi 👋🏻
 subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻‍💻
 ---
-<div class="intropage-animations">
-  <!-- Typing intro -->
-  <p class="typing-container">
-    <span class="typing-text">Hi, I'm Nush! I like making machines think and data speak to turn insight into action</span>
-  </p>
+<!-- Typing text -->
+<p class="typing-container">
+  <span class="typing-text">Hi, I'm Nush! I like making machines think and data speak to turn insight into action</span>
+</p>
 
+<!-- Bottom animations container -->
+<div class="bottom-animations">
   <!-- Animated bar chart -->
   <div class="animated-bar-chart">
     <svg viewBox="0 0 100 60" preserveAspectRatio="xMidYMid meet">
@@ -22,7 +23,7 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   <!-- LLM network -->
   <div class="llm-network">
     <svg viewBox="0 0 200 120" preserveAspectRatio="xMidYMid meet">
-      <!-- lines -->
+      <!-- Lines -->
       <line x1="40" y1="20" x2="100" y2="40" stroke="grey" stroke-width="1"/>
       <line x1="40" y1="60" x2="100" y2="40" stroke="grey" stroke-width="1"/>
       <line x1="40" y1="60" x2="100" y2="80" stroke="grey" stroke-width="1"/>
@@ -31,8 +32,8 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
       <line x1="100" y1="40" x2="160" y2="70" stroke="grey" stroke-width="1"/>
       <line x1="100" y1="80" x2="160" y2="50" stroke="grey" stroke-width="1"/>
       <line x1="100" y1="80" x2="160" y2="90" stroke="grey" stroke-width="1"/>
-      
-      <!-- nodes -->
+
+      <!-- Nodes -->
       <circle cx="40" cy="20" r="5" class="node"></circle>
       <circle cx="40" cy="60" r="5" class="node"></circle>
       <circle cx="40" cy="100" r="5" class="node"></circle>
@@ -63,7 +64,9 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid #4cafef; /* blinking cursor */
-  font-size: 24px;
+  font-family: 'Arial', sans-serif;  /* your font */
+  font-size: 20px;                    /* adjust size */
+  color: #333;                        /* adjust color */
   line-height: 1.4;
   width: 0; /* start collapsed */
   animation: typing 5s steps(94) 1 forwards, blink 0.75s step-end infinite;
@@ -79,17 +82,8 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   100% { border-color: #4cafef; }
 }
 
-/* Responsive font */
-@media (max-width: 768px) {
-  .typing-text { font-size: 18px; }
-}
-
-@media (max-width: 480px) {
-  .typing-text { font-size: 16px; }
-}
-
-/* Layout for animations */
-.intropage-animations {
+/* Bottom animations container */
+.bottom-animations {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
@@ -113,7 +107,6 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   transform: scaleY(0.2);
   animation: growLoop 1.2s ease-in-out infinite alternate;
 }
-
 .animated-bar-chart .bar:nth-child(2) { animation-delay: 0.2s; }
 .animated-bar-chart .bar:nth-child(3) { animation-delay: 0.4s; }
 .animated-bar-chart .bar:nth-child(4) { animation-delay: 0.6s; }
@@ -129,7 +122,6 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   fill: #4cafef;
   animation: floatNode 3s ease-in-out infinite alternate;
 }
-
 .node:nth-child(1) { animation-delay: 0s; }
 .node:nth-child(2) { animation-delay: 0.2s; }
 .node:nth-child(3) { animation-delay: 0.4s; }
@@ -168,9 +160,9 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   100% { width: 0; }
 }
 
-/* Responsive adjustments for smaller screens */
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .intropage-animations {
+  .bottom-animations {
     flex-direction: column;
     align-items: center;
   }
@@ -181,6 +173,10 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
     max-width: 80%;
     margin-bottom: 20px;
   }
+}
+
+@media (max-width: 480px) {
+  .typing-text { font-size: 16px; }
 }
 </style>
 
