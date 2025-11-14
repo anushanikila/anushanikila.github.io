@@ -21,9 +21,7 @@ author: Anusha Sivakumar
 
 navbar-links:
   About: "aboutme"
-  Thoughts:
-    - LLM: "thoughts"
-    - Switchups: "https://www.google.com"
+  Work: "thoughts"
   #Resume: "resume" 
   Skills: "skills"  
   #Author's home: "https://deanattali.com"
