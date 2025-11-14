@@ -1,7 +1,111 @@
----
-layout: home
-title: Hi 👋🏻
-subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻‍💻
----
+<div style="position: relative; overflow: hidden; padding: 40px 20px;">
 
+  <!-- Floating data network -->
+  <canvas id="data-network" style="position:absolute; top:0; left:0; width:100%; height:250px; z-index:-1;"></canvas>
+
+  <!-- Main intro text -->
+  <p class="typing">
 Hi! My name is Anusha Sivakumar and I am a Data Scientist who is also a Biomedical Engineer. I used to work in Neurosurgery as a Clinical Software Consultant for optimal implementation of navigation software powered by AI/ML for 100% success in patient outcome :) Working with tons of patient health data in research projects got me inspired to pursue data-driven pursuits and here I am now working on fairness and biases in LLMs which ultimately power Agentic AI systems.
+  </p>
+</div>
+
+<style>
+/* Typing animation */
+.typing {
+  width: 100%;
+  max-width: 50ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #4cafef; /* cursor effect */
+  font-size: 16px;
+  line-height: 1.6;
+  animation: typing 12s steps(50) 1 forwards, blink 0.75s step-end infinite;
+  margin: 0 auto;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+  100% { border-color: #4cafef; }
+}
+
+/* Optional small ⚡ sparks floating near text */
+.spark {
+  display: inline-block;
+  position: relative;
+  animation: sparkle 1.5s infinite;
+  font-weight: bold;
+  color: gold;
+}
+
+@keyframes sparkle {
+  0%   { transform: scale(1); opacity: 1; }
+  25%  { transform: scale(1.2) rotate(10deg); opacity: 0.8; }
+  50%  { transform: scale(1); rotate(-10deg); opacity: 1; }
+  75%  { transform: scale(1.1) rotate(5deg); opacity: 0.9; }
+  100% { transform: scale(1); rotate(0deg); opacity: 1; }
+}
+</style>
+
+<script>
+// Floating data nodes / network
+const canvas = document.getElementById('data-network');
+const ctx = canvas.getContext('2d');
+
+function resizeCanvas() {
+  canvas.width = window.innerWidth;
+  canvas.height = 250;
+}
+resizeCanvas();
+window.addEventListener('resize', resizeCanvas);
+
+let nodes = [];
+for (let i = 0; i < 40; i++) {
+  nodes.push({
+    x: Math.random() * canvas.width,
+    y: Math.random() * canvas.height,
+    dx: (Math.random() - 0.5) / 2,
+    dy: (Math.random() - 0.5) / 2
+  });
+}
+
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  nodes.forEach(node => {
+    // draw node
+    ctx.beginPath();
+    ctx.arc(node.x, node.y, 3, 0, 2 * Math.PI);
+    ctx.fillStyle = "#4cafef";
+    ctx.fill();
+
+    // optional: connect close nodes
+    nodes.forEach(other => {
+      const dist = Math.hypot(node.x - other.x, node.y - other.y);
+      if (dist < 80) {
+        ctx.beginPath();
+        ctx.moveTo(node.x, node.y);
+        ctx.lineTo(other.x, other.y);
+        ctx.strokeStyle = "rgba(76,175,239,0.2)";
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+    });
+
+    // move node
+    node.x += node.dx;
+    node.y += node.dy;
+
+    // bounce edges
+    if (node.x < 0 || node.x > canvas.width) node.dx *= -1;
+    if (node.y < 0 || node.y > canvas.height) node.dy *= -1;
+  });
+
+  requestAnimationFrame(draw);
+}
+
+draw();
+</script>
