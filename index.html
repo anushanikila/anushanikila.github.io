@@ -57,7 +57,6 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   justify-content: center;
   align-items: center;
   font-size: 0.9rem;
-  line-height: 1.4;
   font-family: monospace;
   color: #A9A9A9;
   white-space: normal; /* allow wrapping */
@@ -74,7 +73,7 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   border-right: 2px solid #4cafef;
   height: 1em;
   animation: blink 0.7s step-end infinite;
-  margin-left: 2px; /* tiny spacing so it touches the last character */
+  margin-left: 3px; /* tiny spacing so it touches the last character */
 }
 
 @keyframes blink {
@@ -159,6 +158,15 @@ subtitle: Data Scientist🚀| Biomedical Engineer⚕️| AI/ML Engineer👩🏻�
   50% { width: 100%; }
   100% { width: 0; }
 }
+
+.typing-text, 
+.typing-container span {
+    border-right: none !important;
+    animation: none !important;
+    width: auto !important;
+    overflow: visible !important;
+}
+  
 </style>
 
 <script>
@@ -169,7 +177,7 @@ function type() {
   if (i < text.length) {
     document.getElementById("typed-text").textContent += text.charAt(i);
     i++;
-    setTimeout(type, 40); 
+    setTimeout(type, 35); 
   }
 }
 
