@@ -133,7 +133,7 @@ title: About me
 
 
 <div style="text-align: center; margin: 20px 0;">
-  <a href="{{ '/assets/Anusha Sivakumar Resume Jan 2026.pdf' | relative_url }}" class="btn btn-secondary" download>
+  <a href="{{ '/assets/Anusha Sivakumar Resume Feb 2026.pdf' | relative_url }}" class="btn btn-secondary" download>
     Download My Résumé
   </a>
 </div>
