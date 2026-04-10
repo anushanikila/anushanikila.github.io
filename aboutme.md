@@ -114,20 +114,22 @@ title: About me
   <img src="/assets/img/IMG_6616.JPG" class="about-photo">
 
   <div class="about-text">
-    <p>Hello there, I’m Nush! I’m a product owner, data scientist and biomedical engineer who loves building intelligent systems that connect technology and human experience. I earned my Master’s in Data Science & Analytics from UMass Amherst (ML/AI focus) and my Bachelor’s in Biomedical Engineering from Tulane University. I’ve worked cross-functionally across teams to tackle real-world problems—from deploying software in live neurosurgery, to creating AI-driven patient adherence models, designing scalable web platforms, and driving growth strategy. As an excellent communicator, my technical work blends collaboration with a focus on making complex systems intuitive, impactful, and human-centered, whether through machine learning, NLP, generative AI, or agentic AI. I have a proven track record of fostering strategic partnerships and influencing executive stakeholders' decision-making with positive mutual net impact. </p>
+    <p>Hello there, I’m Nush! I'm a Product Owner and Biomedical Engineer with 8+ years building clinical AI systems, SaMD platforms, and digital health products at the intersection of technology, data science, and human health. Currently, I'm owning product strategy and agentic AI development at ZTensor — designing autonomous AI systems that make real-time decisions at scale. Before that, I've delivered everything from neurosurgical decision support software in live OR environments at UCSF to AI-driven behavioral health programs at CareCentra -always at the place where clinical evidence meets product execution.</p>
 
-    <p>Growing up across Germany, Singapore, and the U.S. gave me a global perspective and a curiosity about how culture, creativity, and data intersect making me a little bit of a Swiss Army Knife of sorts. I express myself through photography, fashion, painting, writing, poetry, storytelling, singing, and guitar—each passion shaping how I approach AI and problem-solving. This is where creativity and analysis meet to inspire new ideas and meaningful work.</p>
+    <p>I hold a Master's in Data Science & Analytics (ML/AI) from UMass Amherst and a Bachelor's in Biomedical Engineering from Tulane University. My edge as a PM is rare: I can speak fluently with engineers, clinicians, data scientists, and executive stakeholders, and translate between all of them to ship products that actually work in regulated, high-stakes environments.</p>
+    
+    <p>Growing up across Germany, Singapore, and the U.S. shaped how I think about problems, globally, creatively, and always with the end user in mind. I bring that same cross-cultural curiosity to every product I build. Outside of work I express myself through photography, painting, writing, music, and fashion; each one a different way of asking the same question I bring to product work: how do we make something complex feel human?</p>   
   </div>
 </div>
 
 <div class="what-i-do">
   <h2>What I Do:</h2>
   <ul>
-    <li><span class="spark">⚡</span> Experienced in end-to-end data engineering on AWS and Azure using Databricks, PySpark, Delta Lake, and ADF</li>
-    <li><span class="spark">⚡</span> Skilled in workflow orchestration and automation with Airflow, Azure DevOps, GitHub, and Docker</li>
-    <li><span class="spark">⚡</span> Transforming raw data into business intelligence using Power BI, Tableau, and Excel</li>
-    <li><span class="spark">⚡</span> Applying machine learning and predictive modeling with Scikit-learn, TensorFlow, and PyTorch</li>
-    <li><span class="spark">⚡</span> Exploring NLP, large language models, generative AI, and agentic AI to build systems that understand and interact with human language</li>
+    <li><span class="spark">⚡</span> Clinical domain depth: SaMD platforms, digital biomarkers, wearable health data, regulated environments</li>
+    <li><span class="spark">⚡</span> AI/ML product intuition: from agentic AI pipelines at ZTensor to clinical decision support models, built and shipped in production</li>
+    <li><span class="spark">⚡</span> Cross-functional leadership: managing engineers, data scientists, clinicians, and executives toward a shared product vision</li>
+    <li><span class="spark">⚡</span> Data-driven decision making: SQL, Snowflake, Power BI, and hands-on ML experience informing every roadmap call</li>
+    <li><span class="spark">⚡</span> Global perspective: full professional German, multilingual, experienced on multinational teams</li>
   </ul>
 </div>
 
